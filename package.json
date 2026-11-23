@@ -1,0 +1,15 @@
+{
+  "name": "@iabhi1610/figma-component-skill",
+  "version": "0.1.0",
+  "description": "An agent skill that interviews you about a component, then writes one Figma Plugin API script (for Scripter) that builds the full component set with variants, states, toggles and instance swaps. No Figma MCP calls.",
+  "keywords": ["figma", "agent-skill", "claude-code", "skills", "design-system", "components", "scripter"],
+  "author": "iabhi1610",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/iabhi1610/figma-component-skill.git" },
+  "homepage": "https://github.com/iabhi1610/figma-component-skill#readme",
+  "bin": { "figma-component-skill": "bin/install.js" },
+  "files": ["bin", "skills", "README.md", "LICENSE"],
+  "scripts": { "test": "node test/mock-run.test.js" },
+  "engines": { "node": ">=18" },
+  "publishConfig": { "access": "public" }
+}
